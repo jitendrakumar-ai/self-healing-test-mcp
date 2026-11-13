@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "self-healing-test-mcp"
+version = "1.2.0"
+description = "Autonomous Stack-Trace Decompiler, Root-Cause Analyzer & Edge-Case Unit Test Generator MCP Server"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+self-healing-test-mcp = "self_healing_test_mcp:main"
