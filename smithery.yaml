@@ -1,0 +1,7 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({ command: "python3", args: ["self_healing_test_mcp.py"] })
